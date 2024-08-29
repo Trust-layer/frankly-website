@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Neonderthaw', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('Images/silas-baisch-LDiZP1yLQxg-unsplash.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  color: white;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttons a {
+  margin: 0 10px;
+}
+
+.buttons img {
+  height: 50px; /* Set a consistent height for both buttons */
+  width: auto; /* Automatically adjust width to maintain aspect ratio */
+}
+
+.buttons img.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
