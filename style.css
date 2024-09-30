@@ -6,8 +6,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('franklybg.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(to right bottom, #E6F0FF 0%, #FFF0F5 44%, #E6F0FF 100%);
   text-align: center;
 }
 
